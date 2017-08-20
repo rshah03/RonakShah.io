@@ -1,0 +1,40 @@
+
+.navBar {
+  font-size: 1.2rem !important;
+  margin: 0;
+  padding: 0;
+  // background: #3b3b3b !important;
+  vertical-align: center;
+  
+  .menuItem:hover {
+    opacity: 0.2;
+    font-size: 1.2rem !important;
+    cursor: pointer;
+  }
+
+  a {
+    outline: 0;
+    color: black !important;
+  }
+
+  .nameTitle {
+    color: #fff;
+
+
+    .developerTag {
+      font-size: 1.5rem !important;
+      
+    }
+  }
+}
+
+.pagesNavbar {
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
+  text-align: center;
+  border-bottom: 1px solid black;
+
+  a:active {
+    outline: 0;
+  }
+}
